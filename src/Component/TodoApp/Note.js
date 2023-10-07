@@ -6,16 +6,14 @@ function Note(props) {
       }
   return (
     <>
-        <div className="box">
+    <div className="boxs">
     <div className='title'>
     <div className="title1">
     <h5 className='h5head'>{props.titles}</h5> 
     <p className='noteprofont'>{props.contents} </p> <br />
     <p className='delete' onClick={delNote}><i className="fa fa-trash" aria-hidden="true"></i></p>
     </div>
-      
     </div>
-
     </div>
     </>
   )

@@ -27,7 +27,7 @@ function TodoApp() {
     <NavBar/>    
      
     <CreatNote protype={AddCreatNote} />
-    
+    <div className='main-todo-app-wraper'>
     {
       additem.map((val,index)=>{
         return (<Note
@@ -39,6 +39,7 @@ function TodoApp() {
         />)
       })
     }
+    </div>
     </>
   )
 }

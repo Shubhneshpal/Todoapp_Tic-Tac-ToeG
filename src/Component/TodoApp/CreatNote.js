@@ -22,11 +22,13 @@ console.log(not)
 
 const AddNote = (event)=>{
   event.preventDefault()
+  if(not.title && not.content){
   props.protype(not);
   setNot({
     title:"",
     content:"",
   });
+}
 };
 
 const expand = ()=>{
