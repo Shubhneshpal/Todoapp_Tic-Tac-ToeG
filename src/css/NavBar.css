@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color for navbar links */
+    padding: 10px 0; /* Padding for the navbar */
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    margin-left: 1rem;
+  }
+  
+  .navbar-item {
+    font-size: 1rem;
+    list-style: none;
+    color: white;
+    margin: 0 25px;
+    text-decoration: none;
+  }  
+ 
+  
+  /* Style links on hover */
+  .navbar-item:hover {
+    text-decoration: underline;    
+  }
